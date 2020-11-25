@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+#logo{
+    display: flex;
+    color: blue;
+    align-items: center;
+    margin: 0 14px;
+    margin-right: 150px;
+   
+}
+#logo img{
+    height: 70px;
+    filter: invert(1);
+    
+}
+#navbar{
+    background-color: black;
+    padding: 13px 14px;
+    font-family: 'Mukta', sans-serif;
+
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50px;
+     
+
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    color: wheat;
+    padding: 13px 30px;
+    font-weight: bold;
+   
+
+}
+
+#navbar li a:hover{
+    color: purple;
+}
+
+#introSection{
+    height: 300px;
+    color: rgb(197, 13, 13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    background-color: darkolivegreen;
+    background: center/cover no-repeat url("/static/bg.jpg");
+
+}
+#sponsorSection{
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    color: peru;
+    background-color: darkred;
+
+}
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+
+}
+.spImage{
+    height: 150px;
+    margin: 20px;
+}
+#missionSection{
+    height: 300px;
+    text-align: center;
+}
+.card{
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 10px;
+    width: 30%;
+    height: 260px;
+    padding: 2px;
+    margin: 2px 20px;
+}
+#footer{
+    height: 100px;
+    background-color: black;
+
+}
+#footer h3{
+    color: white;
+    text-align: center;
+}

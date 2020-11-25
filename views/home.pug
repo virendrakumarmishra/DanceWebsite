@@ -1,0 +1,46 @@
+extends base.pug
+
+block scripts
+  script(src='/static/script.js')
+
+block style
+  style
+      include ../static/style.css
+
+block content
+  
+  section#introSection
+    div Welcome to Dancing Web Portal
+    
+  section#missionSection
+    h2 our mission
+    div.card
+      h3 Dance Perfection
+      div.card-box
+        div.card-img
+          img(src="/static/adidas.jpg", alt="picture")
+        div.card-content
+          p This is a card conent area
+
+    div.card
+      h3 Dancing Technology
+      div.card-box
+        div.card-img
+          img(src="/static/adidas.jpg", alt="picture")
+        div.card-content
+          p This is a card conent area
+    div.card
+      h3 Dance Expert Team
+      div.card-box
+        div.card-img
+          img(src="/static/adidas.jpg", alt="picture")
+        div.card-content
+          p This is a card conent area
+
+
+  section#sponsorSection
+    h3 Our sponsors
+    div#sponsers
+      img(src="/static/spo2.jpg", alt="picture" class="spImage")
+      img(src="/static/spo3.png", alt="picture" class="spImage")
+      img(src="/static/adidas.jpg", alt="picture" class="spImage")

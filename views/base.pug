@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Welcome to Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar
+      ul
+          div#logo
+            img(src="/static/logo.png", alt="logo.png")
+            | MDA
+          li #[a(href="/") Home]
+          li #[a(href="/") About]
+          li #[a(href="/contact") Contact Us]
+          li #[a(href="/") Services]
+
+    block content
+    footer#footer
+      h3 copyright 2020 MDA   
+  
